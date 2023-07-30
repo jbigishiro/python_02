@@ -32,7 +32,7 @@ print(len(my_tuple))
 
 
 # index()
-my_tuple = (1, 2, 3, 4, 5)
+my_tuple = (1, 2, 3, 4, 5, 3)
 index = my_tuple.index(3)
 print(index)
 

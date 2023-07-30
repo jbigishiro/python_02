@@ -39,7 +39,7 @@ print(my_set)
 # discard(): Remove an element from the set 
 # (does not throw an error if not found)
 my_set = {1, 2, 3, 4, 5}
-my_set.discard(2)
+my_set.discard(6)
 print(my_set)
 
 # union(): Perform the union of two sets 

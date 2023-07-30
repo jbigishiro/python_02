@@ -47,7 +47,7 @@ print(my_list)
 # Using sorted() function to sort the list in ascending order
 my_list = ["rabbit", "swallow", "penguin", "parrot", "camel", "koala"]
 
-sorted_list = sorted(my_list)
+sorted_list = sorted(my_list, reverse=True)
 print(sorted_list)
 print(my_list)
 

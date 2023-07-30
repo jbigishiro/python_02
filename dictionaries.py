@@ -41,8 +41,8 @@ print(values)
 
 # items() - Returns a view object that contains tuples 
 # of key-value pairs in the dictionary.
-items = my_dict.items()
-print(items) 
+jay = my_dict.items()
+print(jay) 
 
 # get(key, default) - Returns the value associated with the given key. 
 # If the key is not found, it returns the specified default value.
