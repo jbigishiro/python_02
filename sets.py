@@ -79,9 +79,8 @@ print(is_superset)
 
 # Create a set from a list with duplicates using set comprehension
 my_list = [1, 2, 3, 2, 4, 3, 5, 1, 4, 7, 9]
-my_set = {x for x in my_list}
-print(my_set) 
-
+another=set(my_list) 
+print(another)
 # Sets cannot be sliced or indexed
 
 my_set = {1, 2, 3}

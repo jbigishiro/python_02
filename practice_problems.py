@@ -52,10 +52,17 @@ keys = ['a', 'b', 'c']
 values = [1, 2, 3]
 
 def create_dictionary(keys, values):
-    pass
+    if len(keys) != len(values):
+        raise ValueError("Number of keys and values must be the same")
 
-result = create_dictionary(keys, values)
-print(result)  # Output: {'a': 1, 'b': 2, 'c': 3}
+    dictionary = dict(zip(keys, values))
+    return dictionary
+
+# Create the dictionary
+result_dict = create_dictionary(keys, values)
+
+print(result_dict)
+
 
 
 """
@@ -100,4 +107,5 @@ def get_maximum_value(dictionary):
 
 result = get_maximum_value(dictionary)
 print(result)
+
 
